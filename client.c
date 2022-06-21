@@ -115,7 +115,7 @@ int main(int argc, char **argv)
 	// Specify condition for valid user name
 	if (strlen(name) > 32 || strlen(name) < 2)
 	{
-		printf("Name must be less than 32 and more than 2 characters.\n");
+		printf("Name must be less than  and more than 2 characters.\n");
 		return EXIT_FAILURE;
 	}
 

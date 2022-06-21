@@ -44,7 +44,7 @@ pthread_mutex_t clients_mutex = PTHREAD_MUTEX_INITIALIZER;
 // declaration with max no of clients
 client_t *clients[NO_OF_CLIENTS];
 
-// using queue for adding clients to it
+// adding clients
 void enqueue(client_t *client)
 {
 	// locking mutex to avoid same code sharing
@@ -62,7 +62,7 @@ void enqueue(client_t *client)
 	pthread_mutex_unlock(&clients_mutex);
 }
 
-// removing clients from the queue
+// removing clients 
 void dequeue(int uid)
 {
 	// locking to avoid same code sharing
