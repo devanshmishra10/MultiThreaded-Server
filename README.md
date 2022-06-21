@@ -33,9 +33,7 @@ $ ./server 9090
 $ ./client 9090
 ```
 * You can make different clients join at any server and even start servers at different ports.
-* Whenever you make a client join any server you will be propmted to enter a name , so enter the name and start messaging.
-
-it would be displayed in the corresponding server and to the different clients in the same server.
+* Whenever you make a client join any server you will be propmted to enter a name , so enter the name and start messaging.It would be displayed in the corresponding server and to the different clients in the same server.
 
 ## Description of my tasks
 * This project is basically a type of a common chatroom of multiple clients joined in any server where each client can send a message which would be visible in that server and to each other client in the same server. The clients at any server running at another port would not be able to see those messages.
